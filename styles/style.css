@@ -1,0 +1,70 @@
+html { /* Regel für die gesamte Seite */
+  /*Schriftart und Größe*/
+  font-size: 25px; /* px bedeutet 'pixels': die Schriftgröße wird auf 10 Pixel gesetzt  */
+  font-family: 'Dongle', sans-serif; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+  
+  /*Alles mittig darstellen, meine Spielerei
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  */
+}
+
+h1{
+  margin: 0px;
+  padding: 20px 0;
+  color: cadetblue;
+  text-shadow: 2px 2px 2px black;
+  /*font-size: 60px; /*Schriftgröße*/  
+  
+  text-align: center;
+}
+
+h2{
+  /*font-size: 40px;   */
+  color:lightsteelblue;
+  text-align: center;
+}
+
+p{  
+  line-height: 1;
+  letter-spacing: 1px;
+  color: darkblue;
+  text-align: center;
+}
+
+html{
+  background-color: cornsilk;
+}
+
+body{
+  width: 600px;
+  margin: 0 auto;
+  background-color: gold;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+/* Bild zentrieren */
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+/*Meine Spielerei mit Klassen für Listen und Bilder
+/*flex-Klasse (Bilder..) mittig darstellen*
+.flex { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+*/
+/*Klasse list (Listen) darstellen*/
+.list{    
+  line-height: 1; 
+  letter-spacing: 1px; 
+  color: darkblue;
+  /*Listen-Text mittig darstellen*/
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
